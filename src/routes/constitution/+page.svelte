@@ -169,6 +169,8 @@
     <p>15 Bench </p>
 
     <p>3 IR Spots (Player must be labeled as IR, Out, or Suspended in the Sleeper App)</p>
+    <p>2 Taxi Squad Spots (1st Year Players only)</p>
+    
     
         <!--<h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
@@ -260,7 +262,7 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>At the end of the season 8 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 7 regular season records and most points for of the remaing 5 teams, will receive a playoff berth. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.The 4 remaining teams will play a bestball format toilet bowl. </p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
@@ -268,7 +270,6 @@
     <ol>
         <li>Points For</li>
         <li>Head 2 Head Record</li>
-        <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
         <li>Duel to the death</li>
@@ -278,7 +279,12 @@
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
     <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
-
+    <li>1st offense: Warning</li>
+    <li>2nd offense: 5th round</li>
+    <li>3rd offense: 4th round</li>
+    <li>4th offense: 3rd round</li>
+    <li>5th offense: 2nd round</li>
+    <li>6th offense: 1st round</li>
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
@@ -299,12 +305,12 @@
     <p>League payout is structured as follows:</p>
     <ul>
         <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
+        <li>2nd place: {dues * 2.5}$</li>
         <li>3rd place: {dues}$</li>
+        <li>Regular Season PF: {dues / 2}$</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <p>A 70% majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
 </div>

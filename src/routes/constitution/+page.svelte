@@ -102,13 +102,13 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            //<h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
+            <!--<h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>-->
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-           // <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-           // <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
+           <!--<h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>-->
+           <!--<h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>-->
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.2 Trade Restrictions</h5>
-            //<h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
+            <!--<h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>-->
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
@@ -170,18 +170,18 @@
 
     <p>3 IR Spots (Player must be labeled as IR, Out, or Suspended in the Sleeper App)</p>
     
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
+        <!--<h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
-        //<div class="subBlock">
-          //  <table class="positionMaximums">
-            //    <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-              //  <tr><td>RB</td><td class="right">20</td></tr>
-                //<tr><td>WR</td><td class="right">20</td></tr>
-                //<tr><td>TE</td><td class="right">10</td></tr>
-                //<tr><td>D/ST</td><td class="right">3</td></tr>
-                //<tr><td>K</td><td class="right">3</td></tr>
-            //</table>
-        //</div>
+        <div class="subBlock">
+           <table class="positionMaximums">
+               <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
+                <tr><td>RB</td><td class="right">20</td></tr>
+                <tr><td>WR</td><td class="right">20</td></tr>
+                <tr><td>TE</td><td class="right">10</td></tr>
+                <tr><td>D/ST</td><td class="right">3</td></tr>
+                <tr><td>K</td><td class="right">3</td></tr>
+            </table>
+        </div>-->
 
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
@@ -211,25 +211,25 @@
         <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
     </div>
 
-//    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-//   <div class="subBlock">
-//        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
-//    </div>
+  <!--  <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
+   <div class="subBlock">
+       <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
+   </div>
     
-//   <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
-//    <div class="subBlock">
-//        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
-//    </div>
+   <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
+    <div class="subBlock">
+        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+    </div>
     
    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
       <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2022 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
     </div>
     
- //   <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
-//    <div class="subBlock">
- //       <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-//    </div>
+    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
+    <div class="subBlock">
+       <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+    </div> -->
     
     
     

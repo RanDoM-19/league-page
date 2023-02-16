@@ -8,33 +8,33 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Final Rule Change Results:
-Please let me know if you have any questions, rules will be implemented  In march after waivers shutdown
+Please let me know if you have any questions, rules will be implemented In march after waivers shutdown.</p>
 
-1. Change from .5 PPR/1PPR TE to 1PPR/2PPR TE
-Results: No
+<p>1. Change from .5 PPR/1PPR TE to 1PPR/2PPR TE
+Results: No</p>
 
-2. Change Toilet Bowl Bracket and Non championship bracket to Best Ball format (prohibits ability for players to tank for better draft pick)
-Results: Yes
+<p>2. Change Toilet Bowl Bracket and Non championship bracket to Best Ball format (prohibits ability for players to tank for better draft pick)
+Results: Yes</p>
 
-3. Play an extra game each week against the leagues median score. Whats this?
-Results: No
+<p>3. Play an extra game each week against the leagues median score. Whats this?
+Results: No</p>
 
-4. Abolish trade Deadline
-Results: Yes, but prohibit trading during playoffs
+<p>4. Abolish trade Deadline
+Results: Yes, but prohibit trading during playoffs</p>
 
-5. Move waiver to FAAB, $200 given out at start of new league year.
-Results: Yes
+<p>5. Move waiver to FAAB, $200 given out at start of new league year.
+Results: Yes</p>
 
-6. Player will forfeit draft capital if failing to start a valid lineup every week. Starting at a warning then a 5th round, each offense increases the round of the pick forfeited by 1. This will reset every offseason
-Results: Yes
+<p>6. Player will forfeit draft capital if failing to start a valid lineup every week. Starting at a warning then a 5th round, each offense increases the round of the pick forfeited by 1. This will reset every offseason
+Results: Yes</p>
 
-7. Abolish Kickers ( Are they even real football players anyway?)
-Results: No
+<p>7. Abolish Kickers ( Are they even real football players anyway?)
+Results: No</p>
 
-8. Abolish D/St
-Results: No
+<p>8. Abolish D/St
+Results: No</p>
 
-9. Expand Bench Spots:
+<p>9. Expand Bench Spots:
 Results: Expand By 2 spots</p>
 `;
 

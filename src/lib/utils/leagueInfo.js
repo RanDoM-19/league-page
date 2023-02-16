@@ -7,12 +7,35 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Final Rule Change Results:
+Please let me know if you have any questions, rules will be implemented  In march after waivers shutdown
+
+1. Change from .5 PPR/1PPR TE to 1PPR/2PPR TE
+Results: No
+
+2. Change Toilet Bowl Bracket and Non championship bracket to Best Ball format (prohibits ability for players to tank for better draft pick)
+Results: Yes
+
+3. Play an extra game each week against the leagues median score. Whats this?
+Results: No
+
+4. Abolish trade Deadline
+Results: Yes, but prohibit trading during playoffs
+
+5. Move waiver to FAAB, $200 given out at start of new league year.
+Results: Yes
+
+6. Player will forfeit draft capital if failing to start a valid lineup every week. Starting at a warning then a 5th round, each offense increases the round of the pick forfeited by 1. This will reset every offseason
+Results: Yes
+
+7. Abolish Kickers ( Are they even real football players anyway?)
+Results: No
+
+8. Abolish D/St
+Results: No
+
+9. Expand Bench Spots:
+Results: Expand By 2 spots</p>
 `;
 
 /*   STEP 3   */
